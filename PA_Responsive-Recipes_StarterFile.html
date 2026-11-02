@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        Author:Joshua Farr
+        Date: 11/2/2026
+        Purpose: Add content and mobile responsiveness to a web page centered on a collection of fantasy potion recipes using CSSGrid to control the spacing and layout
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potion Recipe Book</title>
+
+    <link rel="stylesheet" href="PA_Responsive-Recipes_StarterFile.css">
+</head>
+
+<body>
+    <header>
+        <h1>Potion Recipe Book</h1>
+        <p>A collection of magical brews and their ingredients</p>
+    </header>
+    
+    <main>
+        <section class="potion-container" aria-label="Potion recipes">
+    
+            <!-- 
+                POTION CARD:
+                - Each <article> represents ONE potion
+                - You may DUPLICATE this entire article then UPDATE the contents to add more potions
+                - Keep structure consistent for all potions
+            -->
+            <article class="potion">
+                <header>
+                    <!-- POTION NAME -->
+                    <h2>Healing Potion</h2>
+                </header>
+    
+                <!-- POTION DESCRIPTION -->
+                <p>Restores a moderate amount of health.</p>
+    
+                <!-- INGREDIENT TABLE -->
+                <section>
+                    <h3>Ingredients</h3>
+                    <table>
+                        <caption>Healing Potion Ingredients</caption>
+                        
+                        <thead>
+                            <tr>
+                                <th scope="col">Ingredient</th>
+                                <th scope="col">Quantity</th>
+                            </tr>
+                        </thead>
+    
+                        <tbody>
+                            <tr>
+                                <td>Red Herb</td>
+                                <td>2 dried specimens</td>
+                            </tr>
+                            <tr>
+                                <td>Crystal Water</td>
+                                <td>1 vial</td>
+                            </tr>
+                            <tr>
+                                <td>Glow Mushroom</td>
+                                <td>3 caps without stems</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </article>
+    
+            <!-- POTION CARD -->
+            <article class="potion">
+    
+                <header>
+                    <h2>Invisibility Potion</h2>
+                </header>
+    
+                <p>Grants temporary invisibility.</p>
+    
+                <section>
+                    <h3>Ingredients</h3>
+    
+                    <table>
+                        <caption>Invisibility Potion Ingredients</caption>
+    
+                        <thead>
+                            <tr>
+                                <th scope="col">Ingredient</th>
+                                <th scope="col">Quantity</th>
+                            </tr>
+                        </thead>
+    
+                        <tbody>
+                            <tr>
+                                <td>Ghost Leaf</td>
+                                <td>4 leaves</td>
+                            </tr>
+                            <tr>
+                                <td>Shadow Essence</td>
+                                <td>2 drops</td>
+                            </tr>
+                            <tr>
+                                <td>Nightshade</td>
+                                <td>1 plant with roots</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </article>
+
+                                <!-- POTION CARD -->
+            <article class="potion">
+                <header>
+                    <h2>Mana Potion</h2>
+                </header>
+
+                <p>Restores magical energy used for casting spells.</p>
+
+                <section>
+                    <h3>Ingredients</h3>
+                    <table>
+                        <caption>Mana Potion Ingredients</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Ingredient</th>
+                                <th scope="col">Quantity</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Blue Lotus Petals</td>
+                                <td>5 petals</td>
+                            </tr>
+                            <tr>
+                                <td>Moonwell Water</td>
+                                <td>1 vial</td>
+                            </tr>
+                            <tr>
+                                <td>Crushed Sapphire</td>
+                                <td>1 pinch</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </article>
+
+            <!-- POTION CARD -->
+            <article class="potion">
+                <header>
+                    <h2>Stamina Potion</h2>
+                </header>
+
+                <p>Restores endurance so you can run, climb, and fight longer.</p>
+
+                <section>
+                    <h3>Ingredients</h3>
+                    <table>
+                        <caption>Stamina Potion Ingredients</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Ingredient</th>
+                                <th scope="col">Quantity</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Golden Wheat Grain</td>
+                                <td>1 handful</td>
+                            </tr>
+                            <tr>
+                                <td>Wild Honey</td>
+                                <td>2 spoonfuls</td>
+                            </tr>
+                            <tr>
+                                <td>Giant's Toe Root</td>
+                                <td>1 sliced root</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </article>
+
+            <!-- POTION CARD -->
+            <article class="potion">
+                <header>
+                    <h2>Regeneration Potion</h2>
+                </header>
+
+                <p>Slowly heals wounds over time instead of all at once.</p>
+
+                <section>
+                    <h3>Ingredients</h3>
+                    <table>
+                        <caption>Regeneration Potion Ingredients</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Ingredient</th>
+                                <th scope="col">Quantity</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Troll Blood</td>
+                                <td>3 drops</td>
+                            </tr>
+                            <tr>
+                                <td>Green Moss</td>
+                                <td>1 clump</td>
+                            </tr>
+                            <tr>
+                                <td>Phoenix Ash</td>
+                                <td>1 pinch</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </article>
+
+        </section>
+    </main>
+    
+    <footer>
+        <p>Responsive Recipes Vol. 2026</p>
+        <p>Potion Archivist: Josfar6040</p>
+    </footer>
+
+</body>
+</html>
